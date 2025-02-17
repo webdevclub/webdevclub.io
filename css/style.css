@@ -26,7 +26,7 @@ html, body {
 /* Mobile First CSS: we'll design for phone sizes first, then add media queries for larger screens later */
 
 body {
-	font-family: Arial, sans-serif;
+	font-family: 'BirchLeaf';
 	margin: 0;
 	padding: 0;
 }
@@ -35,6 +35,7 @@ body {
 	background-color: #333;
 	background-image: url('img/blacktexture.jpg');
 	font-family: 'GallaeciaForte';
+	font-size: 40px;
 	color: white;
 	padding: 20px;
 	text-align: center;
@@ -42,9 +43,11 @@ body {
 
 .nav {
 	background-color: #444;
+	display: flex;
 	background-image: url('img/blacktexture.jpg');
 	padding: 10px;
 	font-family: 'BirchLeaf';
+	width: 100%;
 	text-align: center;
 }
 
@@ -73,19 +76,36 @@ h2 {
 	border: 1px solid;
 }
 
-table {
+main {
+	display: grid;
+	grid-template-columns: 70% 30%;
+	align-items: stretch; /* Ensures both elements have the same height */
+  }
+  
+  .about-site {
+	grid-column: 1;
+  }
+  
+  aside {
+	padding: 10px;
+	grid-column: 2;
+	background-image: url('img/blacktexture.jpg');
+	color: #f0f0f0;
+  }
+
+.members table {
 	width: 100%;
 	border-collapse: collapse;
 }
 
-th, td {
+.members th, td {
 	font-family: 'BirchLeaf';
 	border: 1px solid #865959;
 	padding: 10px;
 	text-align: center;
 }
 
-th {
+.members th {
 	font-family: 'GallaeciaForte';
 	background-color: #f0f0f0;
 }
@@ -102,13 +122,29 @@ th {
 	background-image: url('img/blacktexture.jpg');
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 850px) {
+	main{
+		display: block;
+    	width: 100%;
+	}
+	.about-club{
+		display: block;
+    	width: 100%;
+	}
+	aside{
+		padding: 20px;
+		display: block;
+    	width: 100%;
+	}
 	table {
 		border: 0;
 	}
 	
 	table caption {
 		font-size: 1.3em;
+	}
+	h1{
+		font-size: 30px;
 	}
 	
 	table thead {
