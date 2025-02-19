@@ -98,6 +98,15 @@ main {
 	border-collapse: collapse;
 }
 
+button {
+	border: ridge black 30px;
+	font-family: 'BirchLeaf';
+	font-size: 20px;
+	margin: auto;
+	display: block;
+	margin-bottom: 30px;
+}
+
 .members th, td {
 	font-family: 'BirchLeaf';
 	border: 1px solid #865959;
