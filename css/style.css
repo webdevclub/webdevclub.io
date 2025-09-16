@@ -107,6 +107,32 @@ button {
 	margin-bottom: 30px;
 }
 
+
+
+
+div.scroll-container {
+	background-color: #000000;
+	background-image: url('img/blacktexture.jpg');
+	overflow: auto;
+	white-space: nowrap;
+	padding: 10px;
+	scrollbar-color: rgb(0, 0, 0) #f0f0f0;
+}
+
+div.scroll-container img {
+	padding: 1px;
+	margin: 4px;
+	height: 400px;
+	border: #f0f0f0 double 5px;
+}
+
+div.scroll-container p {
+	color: white;
+	margin: 2px;
+}
+
+
+
 .members th, td {
 	font-family: 'BirchLeaf';
 	border: 1px solid #865959;
