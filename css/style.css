@@ -107,6 +107,13 @@ button {
 	margin-bottom: 30px;
 }
 
+#done {
+	  text-decoration: line-through;
+}
+#next {
+	  font-weight: bold;
+	  background-color: #9a9a9aa8;
+}
 
 
 
