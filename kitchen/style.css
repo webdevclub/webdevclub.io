@@ -1,0 +1,34 @@
+#wall{
+    background-color: rgba(237, 225, 191, 0.648);
+    height: 70%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: -1;
+}
+
+
+
+#floor{
+    background-image: url(img/tile.JPG);
+    background-color: rgba(146, 111, 24, 0.602);
+    bottom: 0px;
+    left: 0px;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+}
+
+#counter{
+    z-index: 1;
+    width: 150px;
+    margin: 300px;
+}
+
+body {
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+
+}
