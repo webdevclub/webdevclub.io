@@ -101,6 +101,44 @@ body {
     height: 150px;
     z-index: 2;
 }
+#tree{
+    position: absolute;
+    bottom: 0;
+    left: -200px;
+    height: 600px;
+    z-index: -1;
+}
+#scarecrow{
+    position: absolute;
+    bottom: 0;
+    right: -50px;
+    height: 400px;
+    z-index: -1;
+}
+#window6{
+    position: absolute;
+    top: 500px;
+    right: 50px;
+    width: 100px;
+    height: 150px;
+    z-index: 2;
+}
+#window7{
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    width: 100px;
+    height: 150px;
+    z-index: 2;
+}
+#window8{
+    position: absolute;
+    top: 750px;
+    right: 50px;
+    width: 100px;
+    height: 150px;
+    z-index: 2;
+}
 #grass{
     position: absolute;
     bottom: 0;
