@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #4b1400;
+    color: #ffffff;
+}
+#title{
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: right;
+    right: 30px;
+    color: orange;
+    text-shadow: #4b1400 2px 2px 4px;
+    z-index: 10;
+}  
+#title a {
+    color: orange;
+    text-shadow: #4b1400 2px 2px 4px;
+} 
+#wall{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70%;
+    background-image: url(furnitureimg/carpet.JPG);
+    background-size: 400px;
+    opacity: 0.5;
+    border-bottom: 5px solid #654321;
+    z-index: -1;
+} 
+#floor{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background-color: #a0512d2d; 
+    z-index: 0;
+}
+#chair{
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    height: 300px;
+    z-index: 1;
+}
+#table{
+    position: absolute;
+    left: 40%;
+    bottom: 12%;
+    height: 200px;
+    z-index: 2;
+}
+#vase{
+    position: absolute;
+    left: 50%;
+    bottom: 43%;
+    height: 150px;
+    z-index: 5;
+}
+#picture{
+    position: absolute;
+    left: 10%;
+    top: 10%;
+    height: 150px;
+    z-index: 3;
+}
+#lamp{
+    position: absolute;
+    left: -80px;
+    bottom: 15%;
+    height: 430px;
+    z-index: 4;
+}
