@@ -1,0 +1,48 @@
+body {
+    background-image: url(img/purplesky.gif);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+@font-face {
+    font-family: 'spook';
+    src: url(DeathBones.ttf);
+}
+main {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+}
+header {
+    font-family: 'spook';
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin: auto;
+    width:fit-content;
+}
+section {
+    text-align: center;
+    margin-top: 50px;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.character {
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+
+}
+.character img {
+    width: 100%;
+}
+ 
+a {
+    color: white;
+}
+a:hover {
+    color: rgb(255, 0, 157);
+}

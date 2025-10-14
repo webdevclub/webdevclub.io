@@ -1,0 +1,59 @@
+main{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: row-reverse;
+    width:fit-content;
+}
+header{
+    font-family: 'spook';
+    background-color: #800080;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width:fit-content;
+}
+
+@font-face {
+    font-family: 'spook';
+    src: url(../../DeathBones.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    background-image: url(img/bluelace.gif);
+}
+#character {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+}
+div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+}
+.head, .body, .feet {
+    margin: 0px;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+    display: none; 
+}
+.visible {
+    display: block;
+}
+button {
+    font-size: 20px;
+    cursor: pointer;
+}
+a {
+    color: white;
+}
