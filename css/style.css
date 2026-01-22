@@ -59,7 +59,7 @@ body {
 .header {
 	background-color: #333;
 	background-image: url('img/blacktexture.jpg');
-	font-family: 'spiderwebfont';
+	font-family: 'GallaeciaForte';
 	letter-spacing: 4px;
 	font-size: 40px;
 	color: white;
@@ -92,7 +92,7 @@ h2 {
 
 
 h1 {
-	font-family: 'spiderwebfont';
+	font-family: 'GallaeciaForte';
 }
 
 .about-site {
@@ -102,7 +102,7 @@ h1 {
 }
 .about-club {
 	padding: 10px;
-	font-family: 'spookyfont';
+	font-family: 'BirchLeaf';
 	background-color: white;
 	border: 1px solid;
 }
