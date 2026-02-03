@@ -1,0 +1,33 @@
+img{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+h1
+{
+    color: rgb(253, 253, 253);
+    background-color: rgb(6, 97, 31);
+}
+body{
+    background-color: plum;
+    background-image: url(img.jpg);
+}
